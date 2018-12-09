@@ -1,2 +1,2 @@
 # tongue-twister
-web application.
+Web application.

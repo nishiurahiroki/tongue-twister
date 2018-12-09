@@ -42,12 +42,12 @@ const TongueTwister = () => {
     <>
       <div className="siimple-box siimple-box--orange" style={{textAlign:'center'}}>
         <div className="siimple-box-title">{state.tongueTwister}</div>
-        <div className="siimple-box-subtitle">{state.result}</div>
         <div className="siimple-box-detail">
           {state.isFinished ?
-            '' : <><i className="fas fa-microphone"></i>声に出して読み上げて下さい<i className="fas fa-microphone"></i></>
+            '' : <><i className="fas fa-microphone"></i>↑声に出して読み上げて下さい↑<i className="fas fa-microphone"></i></>
           }
         </div>
+        <div className="siimple-box-subtitle">{state.result}</div>
       </div>
 
       {state.isFinished ?
